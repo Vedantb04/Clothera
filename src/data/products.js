@@ -1,0 +1,337 @@
+// src/data/products.js
+export const products = [
+  {
+    id: 1,
+    name: 'Cartoon Astronaut T-Shirt',
+    brand: 'Adidas',
+    price: 78,
+    originalPrice: 78,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'featured',
+    rating: 5,
+    reviews: 24,
+    discount: 0,
+    description: 'The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton. This classic fit preshrunk jersey knit provides unmatched comfort with each wear.',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['Black', 'White', 'Navy', 'Gray'],
+    inStock: true,
+    tags: ['cotton', 'casual', 'graphic']
+  },
+  {
+    id: 2,
+    name: 'Urban Street Hoodie',
+    brand: 'Nike',
+    price: 95,
+    originalPrice: 112,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'featured',
+    rating: 4,
+    reviews: 18,
+    discount: 15,
+    description: 'Premium quality hoodie with modern urban design. Perfect for streetwear enthusiasts who value both comfort and style.',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['Black', 'Gray', 'Navy'],
+    inStock: true,
+    tags: ['hoodie', 'urban', 'streetwear']
+  },
+  {
+    id: 3,
+    name: 'Classic Denim Jacket',
+    brand: 'Levi\'s',
+    price: 120,
+    originalPrice: 120,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'new',
+    rating: 5,
+    reviews: 32,
+    discount: 0,
+    description: 'Timeless denim jacket crafted from premium denim fabric. A wardrobe essential that never goes out of style.',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['Light Blue', 'Dark Blue', 'Black'],
+    inStock: true,
+    tags: ['denim', 'classic', 'jacket']
+  },
+  {
+    id: 4,
+    name: 'Summer Casual Shorts',
+    brand: 'H&M',
+    price: 45,
+    originalPrice: 56,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'featured',
+    rating: 4,
+    reviews: 15,
+    discount: 20,
+    description: 'Lightweight and breathable shorts perfect for summer activities. Made from quick-dry fabric for maximum comfort.',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['Khaki', 'Navy', 'Black', 'Olive'],
+    inStock: true,
+    tags: ['shorts', 'summer', 'casual']
+  },
+  {
+    id: 5,
+    name: 'Premium Cotton Polo',
+    brand: 'Ralph Lauren',
+    price: 85,
+    originalPrice: 85,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'new',
+    rating: 5,
+    reviews: 28,
+    discount: 0,
+    description: 'Classic polo shirt made from 100% premium cotton. Features the iconic polo player logo and superior craftsmanship.',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['White', 'Navy', 'Red', 'Green'],
+    inStock: true,
+    tags: ['polo', 'premium', 'cotton']
+  },
+  {
+    id: 6,
+    name: 'Vintage Band Tee',
+    brand: 'Uniqlo',
+    price: 35,
+    originalPrice: 39,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'featured',
+    rating: 4,
+    reviews: 22,
+    discount: 10,
+    description: 'Vintage-inspired band t-shirt with authentic retro graphics. Soft cotton blend for all-day comfort.',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['Black', 'White', 'Gray'],
+    inStock: true,
+    tags: ['vintage', 'band', 'graphic']
+  },
+  {
+    id: 7,
+    name: 'Designer Joggers',
+    brand: 'Adidas',
+    price: 75,
+    originalPrice: 75,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'new',
+    rating: 5,
+    reviews: 19,
+    discount: 0,
+    description: 'Contemporary joggers with a tapered fit. Made from moisture-wicking fabric perfect for both workouts and casual wear.',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['Black', 'Gray', 'Navy'],
+    inStock: true,
+    tags: ['joggers', 'athletic', 'designer']
+  },
+  {
+    id: 8,
+    name: 'Casual Button Shirt',
+    brand: 'Zara',
+    price: 65,
+    originalPrice: 87,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'featured',
+    rating: 4,
+    reviews: 16,
+    discount: 25,
+    description: 'Modern casual button-up shirt with a relaxed fit. Versatile piece that works for both casual and semi-formal occasions.',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['White', 'Light Blue', 'Pink', 'Black'],
+    inStock: true,
+    tags: ['shirt', 'casual', 'button-up']
+  },
+  {
+    id: 9,
+    name: 'Sports Running Shoes',
+    brand: 'Nike',
+    price: 130,
+    originalPrice: 150,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'new',
+    rating: 5,
+    reviews: 45,
+    discount: 13,
+    description: 'High-performance running shoes with advanced cushioning technology. Designed for comfort and durability.',
+    sizes: ['7', '8', '9', '10', '11', '12'],
+    colors: ['Black/White', 'Navy/Red', 'Gray/Blue'],
+    inStock: true,
+    tags: ['shoes', 'running', 'athletic']
+  },
+  {
+    id: 10,
+    name: 'Wool Blend Sweater',
+    brand: 'Gap',
+    price: 89,
+    originalPrice: 89,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'new',
+    rating: 4,
+    reviews: 31,
+    discount: 0,
+    description: 'Cozy wool blend sweater perfect for cooler weather. Classic crew neck design with ribbed cuffs and hem.',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['Charcoal', 'Navy', 'Burgundy', 'Cream'],
+    inStock: true,
+    tags: ['sweater', 'wool', 'warm']
+  },
+  {
+    id: 11,
+    name: 'Leather Messenger Bag',
+    brand: 'Coach',
+    price: 195,
+    originalPrice: 245,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'featured',
+    rating: 5,
+    reviews: 12,
+    discount: 20,
+    description: 'Premium leather messenger bag with multiple compartments. Perfect for work or travel with sophisticated styling.',
+    sizes: ['One Size'],
+    colors: ['Brown', 'Black', 'Tan'],
+    inStock: true,
+    tags: ['bag', 'leather', 'professional']
+  },
+  {
+    id: 12,
+    name: 'Casual Canvas Sneakers',
+    brand: 'Converse',
+    price: 55,
+    originalPrice: 65,
+    image: '/api/placeholder/300/400',
+    images: [
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400',
+      '/api/placeholder/300/400'
+    ],
+    category: 'featured',
+    rating: 4,
+    reviews: 38,
+    discount: 15,
+    description: 'Classic canvas sneakers with timeless design. Comfortable and versatile for everyday wear.',
+    sizes: ['7', '8', '9', '10', '11', '12'],
+    colors: ['White', 'Black', 'Red', 'Navy'],
+    inStock: true,
+    tags: ['sneakers', 'canvas', 'casual']
+  }
+];
+
+export const blogPosts = [
+  {
+    id: 1,
+    title: 'The Cotton-Jersey Zip-Up Hoodie',
+    excerpt: 'Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...',
+    content: 'Full blog post content would go here. This is a comprehensive guide about cotton-jersey hoodies and their styling.',
+    date: '13/01',
+    author: 'Style Team',
+    image: '/api/placeholder/400/300',
+    category: 'Fashion Tips',
+    readTime: '5 min read'
+  },
+  {
+    id: 2,
+    title: 'How to Style a Quiff',
+    excerpt: 'Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...',
+    content: 'Complete styling guide for achieving the perfect quiff hairstyle. Tips and tricks from professional stylists.',
+    date: '15/01',
+    author: 'Grooming Expert',
+    image: '/api/placeholder/400/300',
+    category: 'Grooming',
+    readTime: '7 min read'
+  },
+  {
+    id: 3,
+    title: 'Must-Have Skater Girl Items',
+    excerpt: 'Kickstarter man braid godard coloring book. Raclette waistcoat selfies yr wolf chartreuse hexagon irony, godard...',
+    content: 'Essential pieces every skater girl needs in her wardrobe. From basics to statement pieces.',
+    date: '18/01',
+    author: 'Street Style',
+    image: '/api/placeholder/400/300',
+    category: 'Street Style',
+    readTime: '4 min read'
+  },
+  {
+    id: 4,
+    title: 'Sustainable Fashion Choices',
+    excerpt: 'Making eco-friendly choices in fashion without compromising on style. Learn about sustainable materials and brands.',
+    content: 'Deep dive into sustainable fashion and how to make environmentally conscious clothing choices.',
+    date: '20/01',
+    author: 'Eco Fashion',
+    image: '/api/placeholder/400/300',
+    category: 'Sustainability',
+    readTime: '8 min read'
+  },
+  {
+    id: 5,
+    title: 'Color Coordination Made Easy',
+    excerpt: 'Master the art of color coordination with these simple rules and guidelines for creating stunning outfits.',
+    content: 'Comprehensive guide to color theory in fashion and how to create harmonious looks.',
+    date: '22/01',
+    author: 'Color Expert',
+    image: '/api/placeholder/400/300',
+    category: 'Styling Tips',
+    readTime: '6 min read'
+  }
+];
